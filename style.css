@@ -34,3 +34,7 @@ html{
     text-transform:uppercase;
     padding-bottom:20px;
   }
+  #form .inp{
+    height:40px;
+    width:40%;
+    font-size:20px;}
