@@ -12,3 +12,8 @@
   if ((A === C) && (A=== B) && (B===C)){
     txt="This is equilateral triangle!";
      }
+     else if ((A===B) ||(A===C) || (B===C)) {
+      txt="This is Isoscelenes triangle!";
+      
+      }
+   
