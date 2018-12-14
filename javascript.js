@@ -26,6 +26,6 @@
         else {
         txt="This not valid number.";
         }
-         
+        document.getElementById("me").innerHTML=txt  
       }
       
