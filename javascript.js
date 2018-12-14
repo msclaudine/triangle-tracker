@@ -8,3 +8,7 @@
   var BC = parseInt(document.trianleSides.B.value) + parseInt(document.trianleSides.C.value);
 
   var txt;
+  
+  if ((A === C) && (A=== B) && (B===C)){
+    txt="This is equilateral triangle!";
+     }
