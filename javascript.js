@@ -8,7 +8,8 @@
   var BC = parseInt(document.trianleSides.B.value) + parseInt(document.trianleSides.C.value);
 
   var txt;
-  
+  if ((A<=0) ||(B<= 0) ||(C<= 0) || (A==="") || (B==="") || (C==="")) {
+  return document.getElementById("me").innerHTML="INVALID NUMBER"}
   if ((A === C) && (A=== B) && (B===C)){
     txt="This is equilateral triangle!";
      }
@@ -21,8 +22,7 @@
          
          else if ((AB <=C) ||(AC<= B) ||(BC <= A) ) {
          txt="can not form a triangle!";}
-         else if ((A<=0) ||(B<= 0) ||(C<= 0) || (A==="") || (B==="") || (C==="")) {
-          txt="INVALID NUMBER";}
+  
         else {
         txt="This not valid number.";
         }
