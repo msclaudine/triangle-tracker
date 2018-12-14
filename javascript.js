@@ -16,4 +16,9 @@
       txt="This is Isoscelenes triangle!";
       
       }
-   
+      else if ((AB > C) && (AC > B) && (BC > A) && (A!=B) && (A!=C) && (B!=C)) {
+        txt="This is scalene triangle!";}
+         
+         else if ((AB <=C) ||(AC<= B) ||(BC <= A) ) {
+         txt="can not form a triangle!";}
+    
