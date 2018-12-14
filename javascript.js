@@ -21,4 +21,11 @@
          
          else if ((AB <=C) ||(AC<= B) ||(BC <= A) ) {
          txt="can not form a triangle!";}
-    
+         else if ((A<=0) ||(B<= 0) ||(C<= 0) || (A==="") || (B==="") || (C==="")) {
+          txt="INVALID NUMBER";}
+        else {
+        txt="This not valid number.";
+        }
+         
+      }
+      
