@@ -55,4 +55,3 @@ also when it found this condition not satisified
    eg: 4,3,9
 
 8. after; all rest conditions and inputs are fallen into ELSE category
-   eg
