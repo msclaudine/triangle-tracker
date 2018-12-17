@@ -23,13 +23,17 @@ JAVASCRIPT
 Triangle tracking
 
 1. define invalid input
-  eg:side that has lenght equals zero (A=0 or B=0 0r c=0 or both sides equal zero).
+  eg:sides that have lenght less than or equals to zero (A<=0 or B<=0 0r c<=0 or both sides equal to zero or negative values).
+  if this conditioin is not true
 
 2. check if triangle is equilateral by cheking if all its sides are equal
+    
       eg:12,12,12.
      
+    if this condition also is also not true
 
-3. checking if triangle is isosceles by checking if it has two sides which are equal
+3. it checks if triangle is isosceles by checking if it has any two sides which are equal
       eg:25,25,9.
+      also when it found this condition not satisified
 
-4. 
+4. it checks if inputed sides form a scalene triangle by checking 
