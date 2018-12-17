@@ -1,43 +1,42 @@
-<!DOCTYPE html >
+<!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>triangle tracker program></title>
     <script src="javascript.js"></script>
-
   </head>
   <body>
-  
+    <div id="form">
+      <h1>triangle tracker program.</h1>
+      <form action="" name="trianleSides">
+        <label>Enter side A:</label>
+        <input type="text" name="A" class="inp" /><br /><br /><br />
+
+        <label>Enter side B:</label>
+        <input type="text" name="B" class="inp" /><br /><br /><br />
+
+        <label>Enter side C:</label>
+        <input type="text" name="C" class="inp" /><br /><br /><br />
+        <br />
+
+        <input
+          type="button"
+          value="SUBMIT"
+          onclick="triangleCheck()"
+          class="btn"
+        /><br /><br /><br />
+        <input type="reset" value="Clear " class="btn" /><br />
+
+        <p id="me"></p>
+      </form>
+    </div>
+
+    <div class="footer">
+      <footer>
+        &copy; Copyright 2018 M.Claudine
+        <p>Tel:+250788352016></p>
+        <p>Contact: <a href="musaclo@gmail.com">musaclo@gmail.com</a></p>
+      </footer>
+    </div>
   </body>
-  <div id ="form">
-   <h1>triangle tracker program.</h1>
-   <form  action="" name="trianleSides" >
-	
-      <label>Enter side A:</label>
-      <input type="text" name="A" class="inp" /><br /><br><br>
-    
-      <label>Enter side B:</label>
-      <input type="text" name="B" class="inp"/><br /><br><br>
-    
-      <label>Enter side C:</label>
-      <input type="text" name="C" class="inp"/><br /><br><br>
-      <br />
-
-      <input type="button" value="SUBMIT" onclick="triangleCheck()"  class="btn" /><br /><br><br>
-      <input type="reset" value="Clear " class="btn" /><br />
-      
-      <P id="me">
-	
-    </P>
-
-  </form>
-  </div>
-
-  <div class="footer">
-    <footer>
-      &copy; Copyright 2018   M.Claudine
-      <p>Tel:+250788352016></p>
-      <p>Contact: <a href="musaclo@gmail.com">musaclo@gmail.com</a></p>
-    </footer>
- </div>
-  </html>
+</html>
