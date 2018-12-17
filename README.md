@@ -17,6 +17,7 @@ CSS &
 JAVASCRIPT
 
 © Copyright 2018 M.Claudine
+licence: MIT
 
 Triangle tracking
 
