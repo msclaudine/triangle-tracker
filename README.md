@@ -8,14 +8,28 @@ It helps in tracking the type of triangle by intering the three sides of triangl
 SETUP
 If you would like a local copy of this website, make sure you have git installed then run:
 
-$ git clone https://github.com/msclaudine/my-portfolio.git
+$ git clone https://github.com/msclaudine/triangle-tracker.git
 
-DEVELOPED BY USE OF 
+you may browse it from:
 
+
+Technologies used:
 HTML
 CSS &
 JAVASCRIPT
 
-you may browse it from:https://msclaudine.github.io/my-portfolio/
-
 © Copyright 2018 M.Claudine
+
+Triangle tracking
+
+1. define invalid input
+  eg:side that has lenght equals zero (A=0 or B=0 0r c=0 or both sides equal zero).
+
+2. check if triangle is equilateral by cheking if all its sides are equal
+      eg:12,12,12.
+     
+
+3. checking if triangle is isosceles by checking if it has two sides which are equal
+      eg:25,25,9.
+
+4. 

@@ -6,26 +6,29 @@
   var AB = parseInt(document.trianleSides.A.value) + parseInt(document.trianleSides.B.value);
   var AC = parseInt(document.trianleSides.A.value) + parseInt(document.trianleSides.C.value);
   var BC = parseInt(document.trianleSides.B.value) + parseInt(document.trianleSides.C.value);
+  
+  var txts=["INVALID INPUTS","THIS IS EQUILATERAL TRIANGLE","THIS IS ISOSCELENES TRIANGLE","THIS IS SCALENE TRIANGLE",
+  "CAN NOT FORM A TRIANGLE", "THIS IS NOT VALID NUMBERS"];
+  var out;
 
-  var txt;
-  if ((A<=0) ||(B<= 0) ||(C<= 0) || (A==="") || (B==="") || (C==="")) {
-  return document.getElementById("me").innerHTML="INVALID NUMBER"}
+  if ((A<=0) ||(B<= 0) ||(C<= 0) || (A==="") && (B==="") && (C==="")) {
+  return document.getElementById("me").innerHTML=txts[0]}
   if ((A === C) && (A=== B) && (B===C)){
-    txt="This is equilateral triangle!";
+      out=txts[1];
      }
      else if ((A===B) ||(A===C) || (B===C)) {
-      txt="This is Isoscelenes triangle!";
+      out=txts[2];
       
       }
       else if ((AB > C) && (AC > B) && (BC > A) && (A!=B) && (A!=C) && (B!=C)) {
-        txt="This is scalene triangle!";}
+        out=txts[3];}
          
          else if ((AB <=C) ||(AC<= B) ||(BC <= A) ) {
-         txt="can not form a triangle!";}
+          out=txts[4];}
   
         else {
-        txt="This not valid number.";
+        out=txts[5];
         }
-        document.getElementById("me").innerHTML=txt  
+        document.getElementById("me").innerHTML=out   
       }
       
